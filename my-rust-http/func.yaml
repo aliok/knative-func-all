@@ -1,0 +1,8 @@
+specVersion: 0.36.0
+name: my-rust-http
+runtime: rust
+created: 2024-09-27T13:51:38.399795+03:00
+build:
+  buildEnvs:
+  - name: BP_RUSTUP_ENABLED
+    value: "false"

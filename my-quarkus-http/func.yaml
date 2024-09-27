@@ -1,0 +1,14 @@
+specVersion: 0.36.0
+name: my-quarkus-http
+runtime: quarkus
+created: 2024-09-27T13:51:38.278465+03:00
+build:
+  buildEnvs:
+  - name: BP_NATIVE_IMAGE
+    value: "false"
+  - name: BP_JVM_VERSION
+    value: "21"
+  - name: MAVEN_S2I_ARTIFACT_DIRS
+    value: target/quarkus-app
+  - name: S2I_SOURCE_DEPLOYMENTS_FILTER
+    value: lib quarkus-run.jar app quarkus

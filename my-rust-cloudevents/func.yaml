@@ -1,0 +1,9 @@
+specVersion: 0.36.0
+name: my-rust-cloudevents
+runtime: rust
+created: 2024-09-27T13:51:38.339636+03:00
+invoke: cloudevent
+build:
+  buildEnvs:
+  - name: BP_RUSTUP_ENABLED
+    value: "false"

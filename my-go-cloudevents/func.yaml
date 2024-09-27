@@ -1,0 +1,5 @@
+specVersion: 0.36.0
+name: my-go-cloudevents
+runtime: go
+created: 2024-09-27T13:51:37.753038+03:00
+invoke: cloudevent

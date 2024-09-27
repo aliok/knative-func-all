@@ -1,0 +1,9 @@
+specVersion: 0.36.0
+name: my-typescript-cloudevents
+runtime: typescript
+created: 2024-09-27T13:51:38.578522+03:00
+invoke: cloudevent
+build:
+  buildEnvs:
+  - name: BP_NODE_RUN_SCRIPTS
+    value: build

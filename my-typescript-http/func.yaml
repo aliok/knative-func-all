@@ -1,0 +1,8 @@
+specVersion: 0.36.0
+name: my-typescript-http
+runtime: typescript
+created: 2024-09-27T13:51:38.633425+03:00
+build:
+  buildEnvs:
+  - name: BP_NODE_RUN_SCRIPTS
+    value: build
